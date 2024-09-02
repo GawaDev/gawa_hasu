@@ -651,7 +651,7 @@ const locations = {
         "websites": [
             ""
         ]
-    },
+    }
 };
 const holidays = [
     {

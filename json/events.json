@@ -1,0 +1,343 @@
+[
+    {
+        "date": "2024/08/23",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": ["hasunosora"],
+        "name": "みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～（スリーズブーケゲスト回）",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
+        ]
+    },
+    {
+        "date": "2024/08/24",
+        "start_time": "14:00",
+        "end_time": "15:30",
+        "content_codes": ["hasunosora"],
+        "name": "みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～（DOLLCHESTRAゲスト回）",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
+        ]
+    },
+    {
+        "date": "2024/08/24",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "content_codes": ["hasunosora"],
+        "name": "みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～（みらくらぱーく！回）",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
+        ]
+    },
+    {
+        "date": "2024/08/31",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "Animelo Summer Live 2024 -Stargazer- DAY2",
+        "location_code": "saitama_super_arena",
+        "websites": [
+            "https://anisama.tv/"
+        ]
+    },
+    {
+        "date": "2024/09/08",
+        "start_time": "14:00",
+        "end_time": "15:10",
+        "content_codes": ["sasaki"],
+        "name": "佐々木琴子のささいなこと 第1回ささいなイベント 第1部",
+        "location_code": "congre_square_nihonbashi",
+        "websites": [
+            "https://www.joqr.co.jp/ag/article/131951/", "https://www.joqr.co.jp/ag/article/133240/", "https://bunkaagqr.zaiko.io/e/sskt"
+        ]
+    },
+    {
+        "date": "2024/09/08",
+        "start_time": "14:30",
+        "end_time": "16:00",
+        "content_codes": ["kan"],
+        "name": "菅叶和のカンがえるな、カンじろ！～Don't Think. Feel～ 志望遊戯～賭けるものは“笑”しかない!瞳の中に生涯最大の菅を見た!～ 昼の部",
+        "location_code": "tokorozawa_sakura_town",
+        "websites": [
+            "https://nicochannel.jp/kan-kanna/articles/news/arXM7LzNN7eXeNXGKtu9Fv66", "https://nicochannel.jp/kan-kanna/articles/news/arUfTpz2h96nNzdLjk34iuSU", "https://nicochannel.jp/kan-kanna/articles/news/arj4HDAtBFW5Y5gs6kpbyVr3"
+        ]
+    },
+    {
+        "date": "2024/09/08",
+        "start_time": "17:30",
+        "end_time": "18:40",
+        "content_codes": ["sasaki"],
+        "name": "佐々木琴子のささいなこと 第1回ささいなイベント 第2部",
+        "location_code": "congre_square_nihonbashi",
+        "websites": [
+            "https://www.joqr.co.jp/ag/article/131951/", "https://www.joqr.co.jp/ag/article/133240/", "https://bunkaagqr.zaiko.io/e/sskt"
+        ]
+    },
+    {
+        "date": "2024/09/08",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "content_codes": ["kan"],
+        "name": "菅叶和のカンがえるな、カンじろ！～Don't Think. Feel～ 志望遊戯～賭けるものは“笑”しかない!瞳の中に生涯最大の菅を見た!～ 昼の部",
+        "location_code": "tokorozawa_sakura_town",
+        "websites": [
+            "https://nicochannel.jp/kan-kanna/articles/news/arXM7LzNN7eXeNXGKtu9Fv66", "https://nicochannel.jp/kan-kanna/articles/news/arUfTpz2h96nNzdLjk34iuSU", "https://nicochannel.jp/kan-kanna/articles/news/arj4HDAtBFW5Y5gs6kpbyVr3"
+        ]
+    },
+    {
+        "date": "2024/09/12",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "content_codes": ["hasunosora"],
+        "name": "103期Fes×ReC：LIVE ～first crossing～（12日19時回）",
+        "location_code": "zepp_haneda",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL"
+        ]
+    },
+    {
+        "date": "2024/09/13",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "content_codes": ["hasunosora"],
+        "name": "103期Fes×ReC：LIVE ～first crossing～（13日13時回）",
+        "location_code": "zepp_haneda",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL"
+        ]
+    },
+    {
+        "date": "2024/09/13",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "content_codes": ["hasunosora"],
+        "name": "103期Fes×ReC：LIVE ～first crossing～（13日16時回）",
+        "location_code": "zepp_haneda",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL"
+        ]
+    },
+    {
+        "date": "2024/09/13",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "content_codes": ["hasunosora"],
+        "name": "103期Fes×ReC：LIVE ～first crossing～（13日19時回）",
+        "location_code": "zepp_haneda",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL"
+        ]
+    },
+    {
+        "date": "2024/09/29",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "content_codes": ["kan"],
+        "name": "23歳もぶっと“バースデー”結那爆誕祭 1部",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://yuina-fanclub.jp/news/detail/aBoThSo7JKINpvpbQOA8",
+            "https://x.com/yuina_STAFF/status/1829503919296516380"
+        ]
+    },
+    {
+        "date": "2024/10/20",
+        "start_time": "13:00",
+        "end_time": "15:00",
+        "content_codes": ["hasunosora"],
+        "name": "ツエーゲン金沢 沼津戦（蓮ノ空・サンシャイン！コラボ）",
+        "location_code": "kanazawa_stadium",
+        "websites": [
+            "https://www.zweigen-kanazawa.jp/news/?id=16978"
+        ]
+    },
+    {
+        "date": "2024/10/31",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "content_codes": ["hasunosora"],
+        "name": "104期 2nd Term Fes×LIVE",
+        "location_code": "various_theaters",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2024/11/16",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with みらくらぱーく！＜昼公演＞",
+        "location_code": "tachikawa_stage_garden",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUM"
+        ]
+    },
+    {
+        "date": "2024/11/16",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with みらくらぱーく！＜夜公演＞",
+        "location_code": "tachikawa_stage_garden",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUM"
+        ]
+    },
+    {
+        "date": "2024/11/23",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "content_codes": ["tsukine"],
+        "name": "月音こな2025カレンダー発売記念 特典お渡し会イベント 1部",
+        "location_code": "tokyo_unknown",
+        "websites": [
+            "https://www.hmv.co.jp/news/article/240816160/"
+        ]
+    },
+    {
+        "date": "2024/11/23",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "content_codes": ["tsukine"],
+        "name": "月音こな2025カレンダー発売記念 特典お渡し会イベント 2部",
+        "location_code": "tokyo_unknown",
+        "websites": [
+            "https://www.hmv.co.jp/news/article/240816160/"
+        ]
+    },
+    {
+        "date": "2024/11/24",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with DOLLCHESTRA＜昼公演＞",
+        "location_code": "orix_theater",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUD"
+        ]
+    },
+    {
+        "date": "2024/11/24",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with DOLLCHESTRA＜夜公演＞",
+        "location_code": "orix_theater",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUD"
+        ]
+    },
+    {
+        "date": "2024/11/30",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["kan"],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス! 番組イベント",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2024/12/01",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with スリーズブーケ＜昼公演＞",
+        "location_code": "nagoya_convention_center",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUC"
+        ]
+    },
+    {
+        "date": "2024/12/01",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRY TRI UNITY!!! with スリーズブーケ＜夜公演＞",
+        "location_code": "nagoya_convention_center",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUC"
+        ]
+    },
+    {
+        "date": "2024/12/21",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "Live &Fan Meeting TRY TRY UNITY!!! DAY1",
+        "location_code": "ryogoku_kokugikan",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTY"
+        ]
+    },
+    {
+        "date": "2024/12/22",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "Live &Fan Meeting TRY TRY UNITY!!! DAY2",
+        "location_code": "ryogoku_kokugikan",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTY"
+        ]
+    },
+    {
+        "date": "2025/01/10",
+        "start_time": "17:00",
+        "end_time": "20:00",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRI TRI UNITY!!!",
+        "location_code": "yokohama_arena",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTU"
+        ]
+    },
+    {
+        "date": "2025/01/11",
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "content_codes": ["hasunosora"],
+        "name": "3rd Live Tour TRI TRI UNITY!!!",
+        "location_code": "yokohama_arena",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTU"
+        ]
+    },
+    {
+        "date": "2025/01/31",
+        "start_time": "20:00",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "104期 3rd Term Fes×LIVE",
+        "location_code": "various_theaters",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025/02/01",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語 ～ 横浜公演 DAY1",
+        "location_code": "k_arena_yokohama",
+        "websites": [
+            "https://lovelive-anime.jp/special/live/live_detail.php?p=asiatour_2024"
+        ]
+    },
+    {
+        "date": "2025/02/02",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hasunosora"],
+        "name": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語 ～ 横浜公演 DAY2",
+        "location_code": "k_arena_yokohama",
+        "websites": [
+            "https://lovelive-anime.jp/special/live/live_detail.php?p=asiatour_2024"
+        ]
+    }
+]

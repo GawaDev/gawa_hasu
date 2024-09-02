@@ -1,0 +1,211 @@
+{
+    "hulic_hall_tokyo": {
+        "name": "ヒューリックホール東京",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "有楽町",
+        "capacity": 944,
+        "show_map": true,
+        "websites": [
+            "https://hulic-theater.com/"
+        ]
+    },
+    "saitama_super_arena": {
+        "name": "さいたまスーパーアリーナ",
+        "prefecture": "埼玉県",
+        "city": "さいたま市",
+        "nearest_station": "さいたま新都心",
+        "capacity": 37000,
+        "show_map": true,
+        "websites": [
+            "https://www.saitama-arena.co.jp/arena/"
+        ]
+    },
+    "tokorozawa_sakura_town": {
+        "name": "ところざわサクラタウン(ジャパンパビリオンホールA シーティング)",
+        "prefecture": "埼玉県",
+        "city": "所沢市",
+        "nearest_station": "東所沢",
+        "capacity": 650,
+        "show_map": true,
+        "websites": [
+            "https://tokorozawa-sakuratown.com/japanpavilion.html"
+        ]
+    },
+    "congre_square_nihonbashi": {
+        "name": "コングレスクエア日本橋(ホールA・B)",
+        "prefecture": "東京都",
+        "city": "中央区",
+        "nearest_station": "日本橋",
+        "capacity": 400,
+        "show_map": true,
+        "websites": [
+            "https://congres-square.jp/nihonbashi/"
+        ]
+    },
+    "zepp_haneda": {
+        "name": "Zepp Haneda",
+        "prefecture": "東京都",
+        "city": "大田区",
+        "nearest_station": "天空橋",
+        "capacity": 2925,
+        "show_map": true,
+        "websites": [
+            "https://www.zepp.co.jp/hall/haneda/"
+        ]
+    },
+    "tachikawa_stage_garden": {
+        "name": "立川ステージガーデン",
+        "prefecture": "東京都",
+        "city": "立川市",
+        "nearest_station": "立川",
+        "capacity": 2500,
+        "show_map": true,
+        "websites": [
+            "https://www.t-sg.jp/"
+        ]
+    },
+    "ryogoku_kokugikan": {
+        "name": "両国国技館",
+        "prefecture": "東京都",
+        "city": "墨田区",
+        "nearest_station": "両国",
+        "capacity": 11098,
+        "show_map": true,
+        "websites": [
+            "https://www.sumo.or.jp/Kokugikan/"
+        ]
+    },
+    "seinenkan_hall": {
+        "name": "日本青年館ホール",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "外苑前",
+        "capacity": 1249,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "yokohama_arena": {
+        "name": "横浜アリーナ(メインアリーナ)",
+        "prefecture": "神奈川県",
+        "city": "横浜市",
+        "nearest_station": "新横浜",
+        "capacity": 17000,
+        "show_map": true,
+        "websites": [
+            "https://www.yokohama-arena.co.jp/"
+        ]
+    },
+    "k_arena_yokohama": {
+        "name": "Kアリーナ横浜",
+        "prefecture": "神奈川県",
+        "city": "横浜市",
+        "nearest_station": "新高島",
+        "capacity": 20033,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "nagoya_convention_center": {
+        "name": "名古屋国際会議場（センチュリーホール）",
+        "prefecture": "愛知県",
+        "city": "名古屋市",
+        "nearest_station": "日比野",
+        "capacity": 3000,
+        "show_map": true,
+        "websites": [
+            "https://www.nagoya-congress-center.jp/"
+        ]
+    },
+    "kanazawa_station_dome": {
+        "name": "金沢駅もてなしドーム地下広場",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": "",
+        "show_map": true,
+        "websites": [
+            "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/dorokanrika/gyomuannai/2/1/6818.html"
+        ]
+    },
+    "ishikawa_prefecture_music_hall": {
+        "name": "石川県立音楽堂",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": 1560,
+        "show_map": true,
+        "websites": [
+            "https://www.ongakudo.pref.ishikawa.jp/"
+        ]
+    },
+    "kanazawa_stadium": {
+        "name": "金沢ゴーゴーカレースタジアム",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "東金沢",
+        "capacity": "10444",
+        "show_map": true,
+        "websites": [
+            "https://www.kanazawa-stadium.jp/"
+        ]
+    },
+    "shinkabukiza": {
+        "name": "新歌舞伎座",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "大阪上本町",
+        "capacity": 1501,
+        "show_map": true,
+        "websites": [
+            "https://www.shinkabukiza.co.jp/"
+        ]
+    },
+    "orix_theater": {
+        "name": "オリックス劇場",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "四ツ橋",
+        "capacity": 2400,
+        "show_map": true,
+        "websites": [
+            "https://www.orixtheater.jp/"
+        ]
+    },
+    "shanghai_national_exhibition_center": {
+        "name": "国家会展中心（上海）虹馆EH (National Exhibition and Convention Center)",
+        "prefecture": "中華人民共和国：上海市",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 8000,
+        "show_map": true,
+        "websites": [
+            "https://www.neccsh.com/cecsh/exhibition/venue.jspx"
+        ]
+    },
+    "tokyo_unknown": {
+        "name": "東京都内某所",
+        "prefecture": "東京都",
+        "city": "",
+        "nearest_station": "",
+        "capacity": "",
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "various_theaters": {
+        "name": "全国の劇場",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": "",
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    }
+}
