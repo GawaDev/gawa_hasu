@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>イベントカレンダー</title>
+    <link rel="stylesheet" href="css/calendar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calendar-header">
+        <div class="calendar-year" id="calendar-year"></div>
+        <div class="calendar-month" id="calendar-month"></div>
+        <div class="calendar-controls">
+            <button id="prev-month">前月</button>
+            <button id="next-month">次月</button>
+        </div>
+    </div>
+    <div id="calendar"></div>
+
+    <!-- モーダルのHTML -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/calendar.js"></script>
+</body>
+</html>
