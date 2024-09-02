@@ -6,9 +6,9 @@ let locations = {};
 // JSONファイルを非同期に読み込む関数
 async function loadJSON() {
     try {
-        const eventsResponse = await fetch('events.json');
-        const contentsResponse = await fetch('contents.json');
-        const locationsResponse = await fetch('locations.json');
+        const eventsResponse = await fetch('json/events.json');
+        const contentsResponse = await fetch('json/contents.json');
+        const locationsResponse = await fetch('json/locations.json');
 
         events = await eventsResponse.json();
         contents = await contentsResponse.json();
