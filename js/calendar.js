@@ -159,12 +159,11 @@ function createEventDiv(event) {
     const contentCode = event.content_codes[0];
     const contentColor = contents[contentCode] ? contents[contentCode].color : '#cccccc';  // デフォルトカラー
     eventDiv.style.backgroundColor = contentColor;
-    const locationPrefecture = locations[event.location_code]?.prefecture || '';
-    const locationCity = locations[event.location_code]?.city || '';
+    const locationName = locations[event.location_code]?.name || '';
     eventDiv.innerHTML = `
         <span class="event-time">${event.start_time + " - " + event.end_time}</span>
         <span class="event-title">${event.name.substring(0, 20) + (event.name.length > 20 ? "…" : "")}</span>
-        <span class="event-location">${"＠" + locationPrefecture + locationCity}</span>
+        <span class="event-location">${"＠" + locationName}</span>
     `;
     eventDiv.onclick = () => {
         const eventDetails = `
