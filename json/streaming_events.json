@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "date": "2024/09/03",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": ["nonaka"],
+        "name": "なすぴこ",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
+        ]
+    }
+]
