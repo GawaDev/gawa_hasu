@@ -1,117 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
+    color: #2b2b2b;
 }
 
-#event-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.date-time {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+header {
     text-align: center;
+    padding: 20px 0;
+    background-color: #fb8a9b; /* 蓮ノ空の色 */
+    color: white;
 }
 
-.date-time .date {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.date-time .time {
-    font-size: 1em;
-}
-
-.content-label {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 8px;
-    background-color: pink;
-    margin-right: 10px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.location-info {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.location-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 5px;
-    cursor: pointer;
-    /* SVGファイルを指定 */
-    background-image: "\e0c8";
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.map-icon {
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-h3 {
+h1 {
+    font-size: 2.5em;
     margin: 0;
-    text-align: left;
-    /* 左揃え */
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 8px;
+section {
+    margin-bottom: 40px;
 }
 
-.close-button {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
+.business-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
-.close-button:hover,
-.close-button:focus {
-    color: black;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
     text-decoration: none;
-    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fb8a9b;
+    color: white;
+    margin-top: 40px;
+}
+
+#todays-streaming-list, #todays-events-list {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.birthday, .holiday {
+    font-size: 0.8em;
+    margin-top: 2px;
+}
+
+.birthday .birthday-dot {
+    font-size: 1em;
 }
