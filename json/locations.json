@@ -84,7 +84,18 @@
         "capacity": 1249,
         "show_map": true,
         "websites": [
-            ""
+            "https://seinenkan-hall.com/"
+        ]
+    },
+    "shibuya_public_hall": {
+        "name": "LINE CUBE SHIBUYA（渋谷公会堂）",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "渋谷",
+        "capacity": 1956,
+        "show_map": true,
+        "websites": [
+            "https://linecubeshibuya.com/"
         ]
     },
     "yokohama_arena": {
