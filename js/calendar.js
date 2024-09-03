@@ -1,5 +1,6 @@
 // グローバル変数として宣言
-let events = [];
+let onsite_events = [];
+let streaming_events = [];
 let contents = {};
 let locations = {};
 let holidays = [];
@@ -7,12 +8,14 @@ let holidays = [];
 // JSONファイルを非同期に読み込む関数
 async function loadJSON() {
     try {
-        const eventsResponse = await fetch('json/events.json');
+        const onsiteEventsResponse = await fetch('json/onsite_events.json');
+        const streamingEventsResponse = await fetch('json/streaming_events.json');
         const contentsResponse = await fetch('json/contents.json');
         const locationsResponse = await fetch('json/locations.json');
         const holidaysResponse = await fetch('json/holidays.json');
 
-        events = await eventsResponse.json();
+        onsite_events = await onsiteEventsResponse.json();
+        streaming_events = await streamingEventsResponse.json();
         contents = await contentsResponse.json();
         locations = await locationsResponse.json();
         holidays = await holidaysResponse.json();
@@ -129,51 +132,65 @@ function createCalendar(year, month) {
             }
         });
 
-        // イベント表示
-        events.forEach(event => {
+        // 現地イベント表示
+        onsite_events.forEach(event => {
             if (new Date(event.date).toDateString() === dayDate.toDateString()) {
-                const eventDiv = document.createElement('div');
-                eventDiv.className = 'event';
-                const contentCode = event.content_codes[0];
-                const contentColor = contents[contentCode] ? contents[contentCode].color : '#cccccc';  // デフォルトカラー
-                eventDiv.style.backgroundColor = contentColor;
-                const locationPrefecture = locations[event.location_code]?.prefecture || '';
-                const locationCity = locations[event.location_code]?.city || '';
-                eventDiv.innerHTML = `
-                    <span class="event-time">${event.start_time + " - " + event.end_time}</span>
-                    <span class="event-title">${event.name.substring(0, 20) + "…"}</span>
-                    <span class="event-location">${"＠" + locationPrefecture + locationCity}</span>
-                `;
-                eventDiv.onclick = () => {
-                    const eventDetails = `
-                        <h2> ${event.name}</h2>
-                        <table class="modal-table">
-                            <tr>
-                                <td class="label">日付</td>
-                                <td class="value">${event.date}</td>
-                            </tr>
-                            <tr>
-                                <td class="label">開始時刻</td>
-                                <td class="value">${event.start_time}</td>
-                            </tr>
-                            <tr>
-                                <td class="label">終了時刻</td>
-                                <td class="value">${event.end_time}</td>
-                            </tr>
-                            <tr>
-                                <td class="label">ウェブサイト</td>
-                                <td class="value">${event.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
-                            </tr>
-                        </table>
-                    `;
-                    openModal(eventDetails);
-                };
+                const eventDiv = createEventDiv(event);
+                dayCell.appendChild(eventDiv);
+            }
+        });
+
+        // 配信イベント表示
+        streaming_events.forEach(event => {
+            if (new Date(event.date).toDateString() === dayDate.toDateString()) {
+                const eventDiv = createEventDiv(event);
                 dayCell.appendChild(eventDiv);
             }
         });
 
         calendar.appendChild(dayCell);
     }
+}
+
+// イベントのdiv要素を作成する関数
+function createEventDiv(event) {
+    const eventDiv = document.createElement('div');
+    eventDiv.className = 'event';
+    const contentCode = event.content_codes[0];
+    const contentColor = contents[contentCode] ? contents[contentCode].color : '#cccccc';  // デフォルトカラー
+    eventDiv.style.backgroundColor = contentColor;
+    const locationPrefecture = locations[event.location_code]?.prefecture || '';
+    const locationCity = locations[event.location_code]?.city || '';
+    eventDiv.innerHTML = `
+        <span class="event-time">${event.start_time + " - " + event.end_time}</span>
+        <span class="event-title">${event.name.substring(0, 20) + (event.name.length > 20 ? "…" : "")}</span>
+        <span class="event-location">${"＠" + locationPrefecture + locationCity}</span>
+    `;
+    eventDiv.onclick = () => {
+        const eventDetails = `
+            <h2> ${event.name}</h2>
+            <table class="modal-table">
+                <tr>
+                    <td class="label">日付</td>
+                    <td class="value">${event.date}</td>
+                </tr>
+                <tr>
+                    <td class="label">開始時刻</td>
+                    <td class="value">${event.start_time}</td>
+                </tr>
+                <tr>
+                    <td class="label">終了時刻</td>
+                    <td class="value">${event.end_time}</td>
+                </tr>
+                <tr>
+                    <td class="label">ウェブサイト</td>
+                    <td class="value">${event.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
+                </tr>
+            </table>
+        `;
+        openModal(eventDetails);
+    };
+    return eventDiv;
 }
 
 document.getElementById('prev-month').addEventListener('click', () => {

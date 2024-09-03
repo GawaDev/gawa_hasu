@@ -264,6 +264,17 @@
         ]
     },
     {
+        "date": "2024/12/07",
+        "start_time": "18:00",
+        "end_time": "21:00",
+        "content_codes": ["nonaka"],
+        "name": "「AMUSE VOICE ACTORS CHANNEL FES 2024」～大ヒットアニソン忘年会～",
+        "location_code": "shibuya_public_hall",
+        "websites": [
+            "https://avac-fes.com/ticket.html"
+        ]
+    },
+    {
         "date": "2024/12/21",
         "start_time": "",
         "end_time": "",

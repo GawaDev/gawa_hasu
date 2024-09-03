@@ -1,16 +1,19 @@
 // グローバル変数として宣言
-let events = [];
+let onsite_events = [];
+let streaming_events = [];
 let contents = {};
 let locations = {};
 
 // JSONファイルを非同期に読み込む関数
 async function loadJSON() {
     try {
-        const eventsResponse = await fetch('json/events.json');
+        const onsiteEventsResponse = await fetch('json/onsite_events.json');
+        const streamingEventsResponse = await fetch('json/streaming_events.json');
         const contentsResponse = await fetch('json/contents.json');
         const locationsResponse = await fetch('json/locations.json');
 
-        events = await eventsResponse.json();
+        onsite_events = await onsiteEventsResponse.json();
+        streaming_events = await streamingEventsResponse.json();
         contents = await contentsResponse.json();
         locations = await locationsResponse.json();
 
@@ -69,140 +72,155 @@ function compareDates(eventDate) {
 // イベントカードを作成する関数: 各イベントの情報をもとにカードを作成し、リストに追加
 function createEventCards() {
     const eventList = document.getElementById('event-list');
-    events.forEach(event => {
-        const card = document.createElement('div');
-        card.className = 'card';
+    // 現地イベントのカードを作成
+    onsite_events.forEach(event => {
+        const card = createEventCard(event);
+        eventList.appendChild(card);
+    });
 
-        // 日付に応じたカードの背景色設定
-        const dateStatus = compareDates(event.date);
-        if (dateStatus === 'past') {
-            card.style.backgroundColor = '#d3d3d3';  // グレー（過去）
-        } else if (dateStatus === 'today') {
-            card.style.backgroundColor = '#ffa500';  // オレンジ（今日）
-        }
+    // 配信イベントのカードを作成
+    streaming_events.forEach(event => {
+        const card = createEventCard(event);
+        eventList.appendChild(card);
+    });
+}
 
-        // 日付と時刻の要素を作成してカードに追加
-        const dateTime = document.createElement('div');
-        dateTime.className = 'date-time';
-        const date = document.createElement('div');
-        date.className = 'date';
-        date.textContent = `${event.date}`;
-        dateTime.appendChild(date);
-        const time = document.createElement('div');
-        time.className = 'time';
-        time.textContent = `${event.start_time} - ${event.end_time}`;
-        dateTime.appendChild(time);
-        card.appendChild(dateTime);
+// 個別のイベントカードを作成するヘルパー関数
+function createEventCard(event) {
+    const card = document.createElement('div');
+    card.className = 'card';
 
-        // コンテンツラベルを表示するコンテナを作成
-        const contentLabelsContainer = document.createElement('div');
-        contentLabelsContainer.className = 'content-labels-container';
-        card.appendChild(contentLabelsContainer);
+    // 日付に応じたカードの背景色設定
+    const dateStatus = compareDates(event.date);
+    if (dateStatus === 'past') {
+        card.style.backgroundColor = '#d3d3d3';  // グレー（過去）
+    } else if (dateStatus === 'today') {
+        card.style.backgroundColor = '#ffa500';  // オレンジ（今日）
+    }
 
-        // 各コンテンツコードのラベルを作成し、コンテナに追加
-        event.content_codes.forEach(code => {
-            const content = contents[code];
-            if (content) {
-                const contentLabel = document.createElement('span');
-                contentLabel.className = 'content-label';
-                contentLabel.style.backgroundColor = content.color;
+    // 日付と時刻の要素を作成してカードに追加
+    const dateTime = document.createElement('div');
+    dateTime.className = 'date-time';
+    const date = document.createElement('div');
+    date.className = 'date';
+    date.textContent = `${event.date}`;
+    dateTime.appendChild(date);
+    const time = document.createElement('div');
+    time.className = 'time';
+    time.textContent = `${event.start_time} - ${event.end_time}`;
+    dateTime.appendChild(time);
+    card.appendChild(dateTime);
 
-                // テキストラップ要素を追加
-                const labelText = document.createElement('span');
-                labelText.className = 'content-label-text';
-                labelText.textContent = content.name;
-                contentLabel.appendChild(labelText);
+    // コンテンツラベルを表示するコンテナを作成
+    const contentLabelsContainer = document.createElement('div');
+    contentLabelsContainer.className = 'content-labels-container';
+    card.appendChild(contentLabelsContainer);
 
-                contentLabelsContainer.appendChild(contentLabel);
+    // 各コンテンツコードのラベルを作成し、コンテナに追加
+    event.content_codes.forEach(code => {
+        const content = contents[code];
+        if (content) {
+            const contentLabel = document.createElement('span');
+            contentLabel.className = 'content-label';
+            contentLabel.style.backgroundColor = content.color;
 
-                // コンテンツラベルをクリックしたときのモーダル表示
-                contentLabel.onclick = () => {
-                    let modalContent = `<h2>${content.name}</h2>
-                                        <table class="modal-table">
-                                            <tr>
-                                                <td class="label">ウェブサイト</td>
-                                                <td class="value">${content.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
-                                            </tr>
-                                        </table>`;
-                    openModal(modalContent);
-                };
-            }
-        });        // イベント名の作成と追加
-        const name = document.createElement('h3');
-        name.textContent = event.name;
-        name.className = 'event-name';
-        card.appendChild(name);
+            // テキストラップ要素を追加
+            const labelText = document.createElement('span');
+            labelText.className = 'content-label-text';
+            labelText.textContent = content.name;
+            contentLabel.appendChild(labelText);
 
-        // イベント名をクリックしたときのモーダル表示
-        name.onclick = () => {
-            const eventDetails = `
-                <h2>${event.name}</h2>
-                <table class="modal-table">
-                    <tr>
-                        <td class="label">日付</td>
-                        <td class="value">${event.date}</td>
-                    </tr>
-                    <tr>
-                        <td class="label">開始時刻</td>
-                        <td class="value">${event.start_time}</td>
-                    </tr>
-                    <tr>
-                        <td class="label">終了時刻</td>
-                        <td class="value">${event.end_time}</td>
-                    </tr>
-                    <tr>
-                        <td class="label">ウェブサイト</td>
-                        <td class="value">${event.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
-                    </tr>
-                </table>
-            `;
-            openModal(eventDetails);
-        };
+            contentLabelsContainer.appendChild(contentLabel);
 
-        // 場所情報の作成と追加
-        const location = locations[event.location_code];
-        if (location) {
-            const locationInfo = document.createElement('div');
-            locationInfo.className = 'location-info';
-            locationInfo.textContent = location.name;
-            card.appendChild(locationInfo);
-
-            // 場所情報をクリックしたときのモーダル表示
-            locationInfo.onclick = () => {
-                let modalContent = `<h2>${location.name}</h2>
+            // コンテンツラベルをクリックしたときのモーダル表示
+            contentLabel.onclick = () => {
+                let modalContent = `<h2>${content.name}</h2>
                                     <table class="modal-table">
                                         <tr>
-                                            <td class="label">都道府県</td>
-                                            <td class="value">${location.prefecture}</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="label">市区町村</td>
-                                            <td class="value">${location.city}</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="label">最寄駅</td>
-                                            <td class="value">${location.nearest_station}</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="label">収容人数</td>
-                                            <td class="value">${location.capacity}</td>
-                                        </tr>
-                                        <tr>
                                             <td class="label">ウェブサイト</td>
-                                            <td class="value">${location.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
+                                            <td class="value">${content.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
                                         </tr>
                                     </table>`;
-
-                if (location.show_map) {
-                    modalContent += `<iframe width="100%" height="300" frameborder="0" style="border:0"
-                                      src="https://www.google.com/maps?q=${encodeURIComponent(location.name)}&output=embed"
-                                      allowfullscreen></iframe>`;
-                }
-
                 openModal(modalContent);
             };
         }
-
-        eventList.appendChild(card);  // カードをリストに追加
     });
+
+    // イベント名の作成と追加
+    const name = document.createElement('h3');
+    name.textContent = event.name;
+    name.className = 'event-name';
+    card.appendChild(name);
+
+    // イベント名をクリックしたときのモーダル表示
+    name.onclick = () => {
+        const eventDetails = `
+            <h2>${event.name}</h2>
+            <table class="modal-table">
+                <tr>
+                    <td class="label">日付</td>
+                    <td class="value">${event.date}</td>
+                </tr>
+                <tr>
+                    <td class="label">開始時刻</td>
+                    <td class="value">${event.start_time}</td>
+                </tr>
+                <tr>
+                    <td class="label">終了時刻</td>
+                    <td class="value">${event.end_time}</td>
+                </tr>
+                <tr>
+                    <td class="label">ウェブサイト</td>
+                    <td class="value">${event.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
+                </tr>
+            </table>
+        `;
+        openModal(eventDetails);
+    };
+
+    // 場所情報の作成と追加
+    const location = locations[event.location_code];
+    if (location) {
+        const locationInfo = document.createElement('div');
+        locationInfo.className = 'location-info';
+        locationInfo.textContent = location.name;
+        card.appendChild(locationInfo);
+
+        // 場所情報をクリックしたときのモーダル表示
+        locationInfo.onclick = () => {
+            let modalContent = `<h2>${location.name}</h2>
+                                <table class="modal-table">
+                                    <tr>
+                                        <td class="label">都道府県</td>
+                                        <td class="value">${location.prefecture}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">市区町村</td>
+                                        <td class="value">${location.city}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">最寄駅</td>
+                                        <td class="value">${location.nearest_station}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">収容人数</td>
+                                        <td class="value">${location.capacity}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">ウェブサイト</td>
+                                        <td class="value">${location.websites.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}</td>
+                                    </tr>
+                                </table>`;
+
+            if (location.show_map) {
+                modalContent += `<iframe width="100%" height="300" frameborder="0" style="border:0"
+                                  src="https://www.google.com/maps?q=${encodeURIComponent(location.name)}&output=embed"
+                                  allowfullscreen></iframe>`;
+            }
+
+            openModal(modalContent);
+        };
+    }
+
+    return card;
 }
