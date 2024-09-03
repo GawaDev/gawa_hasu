@@ -1,0 +1,28 @@
+[
+    {
+        "name": "日野下花帆",
+        "name_reading": "ひのしたかほ",
+        "name_en": "Kaho Hinoshita",
+        "nicknames": [""],
+        "hometown": "長野県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": 1995,
+        "birth_month": 4,
+        "birth_day": 1,
+        "color": "#ffcc00",
+        "description": "山田太郎は蓮ノ空に所属するアイドルです。"
+    },
+    {
+        "name": "鈴木花子",
+        "name_reading": "すずきはなこ",
+        "name_en": "Hanako Suzuki",
+        "nicknames": ["はなちゃん", "すずちゃん"],
+        "hometown": "大阪府",
+        "affiliation": "スリーズブーケ",
+        "birth_year": 1997,
+        "birth_month": 5,
+        "birth_day": 15,
+        "color": "#ff6699",
+        "description": "鈴木花子はスリーズブーケに所属するアイドルです。"
+    }
+]

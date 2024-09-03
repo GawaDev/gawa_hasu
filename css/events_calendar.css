@@ -83,16 +83,6 @@ body {
     font-weight: bold;
 }
 
-/* 祝日名のスタイル */
-.holiday-name {
-    font-size: 0.5em;
-    /* 祝日名を小さく表示 */
-    color: #ff0000;
-    /* 祝日名の文字色を赤に設定 */
-    margin-left: 3px;
-    /* 日付と祝日名の間にスペースを追加 */
-}
-
 .calendar-day.today {
     background-color: #ffa500;
     /* 今日の日付の背景色をオレンジに設定 */
@@ -103,6 +93,24 @@ body {
     /* 空白セルの背景を透明に設定 */
     box-shadow: none;
     /* 空白セルの影を削除 */
+}
+
+/* 祝日名のスタイル */
+.holiday-name {
+    font-size: 0.5em;
+    /* 祝日名を小さく表示 */
+    color: #ff0000;
+    /* 祝日名の文字色を赤に設定 */
+    margin-left: 3px;
+    /* 日付と祝日名の間にスペースを追加 */
+}
+
+/* 誕生日や記念日のスタイル */
+.birthday {
+    font-size: 0.8em; /* 祝日名と同じサイズに設定 */
+    color: inherit; /* 親要素の色を継承 */
+    margin-top: 2px; /* 日付と誕生日名の間にスペースを追加 */
+    display: inline-block; /* インラインブロックで表示 */
 }
 
 .event {
