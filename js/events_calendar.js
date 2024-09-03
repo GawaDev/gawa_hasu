@@ -4,6 +4,7 @@ let streaming_events = [];
 let contents = {};
 let locations = {};
 let holidays = [];
+let anniversaries = []; // 記念日用の変数
 
 // JSONファイルを非同期に読み込む関数
 async function loadJSON() {
@@ -13,12 +14,14 @@ async function loadJSON() {
         const contentsResponse = await fetch('json/contents.json');
         const locationsResponse = await fetch('json/locations.json');
         const holidaysResponse = await fetch('json/holidays.json');
+        const anniversariesResponse = await fetch('json/anniversaries.json'); // 記念日JSONの読み込み
 
         onsite_events = await onsiteEventsResponse.json();
         streaming_events = await streamingEventsResponse.json();
         contents = await contentsResponse.json();
         locations = await locationsResponse.json();
         holidays = await holidaysResponse.json();
+        anniversaries = await anniversariesResponse.json(); // 記念日データの格納
 
         // JSONが読み込まれた後にカレンダーを作成
         const { month, year } = getMonthYearFromURL();
@@ -145,6 +148,23 @@ function createCalendar(year, month) {
             if (new Date(event.date).toDateString() === dayDate.toDateString()) {
                 const eventDiv = createEventDiv(event);
                 dayCell.appendChild(eventDiv);
+            }
+        });
+
+        // 記念日表示
+        anniversaries.forEach(anniversary => {
+            if (new Date(anniversary.date).toDateString() === dayDate.toDateString()) {
+                const anniversaryDiv = document.createElement('div');
+                anniversaryDiv.className = 'anniversary';
+
+                // ●の表示と色設定
+                const dots = anniversary.content_codes.map(code => {
+                    const color = contents[code] ? contents[code].color : '#000000';
+                    return `<span class="dot" style="color: ${color};">●</span>`;
+                }).join('');
+
+                anniversaryDiv.innerHTML = `${dots} ${anniversary.name}`;
+                dayCell.appendChild(anniversaryDiv);
             }
         });
 
