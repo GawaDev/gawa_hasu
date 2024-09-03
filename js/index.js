@@ -5,6 +5,26 @@ let onsite_events = [];
 let streaming_events = [];
 let holidays = [];
 
+// ページのテーマカラーを設定する関数
+function setThemeColor() {
+    const colors = ["#fb8a9b", "#c40035", "#68be8d", "#c8504b", "#b8b6b9", "#ecb542", "#639ad1", "#e78cb7", "#99d2d0"];
+    const today = new Date();
+    const todaysBirthdays = persons.filter(person => person.birth_month === today.getMonth() + 1 && person.birth_day === today.getDate());
+    
+    let selectedColors;
+
+    if (todaysBirthdays.length > 0) {
+        // 誕生日の人がいる場合、その人たちの色からランダムに選ぶ
+        selectedColors = todaysBirthdays.map(person => person.color);
+    } else {
+        // 誕生日の人がいない場合、通常の色からランダムに選ぶ
+        selectedColors = colors;
+    }
+
+    const randomColor = selectedColors[Math.floor(Math.random() * selectedColors.length)];
+    document.documentElement.style.setProperty('--theme-color', randomColor);
+}
+
 // JSONファイルを非同期に読み込む関数
 async function loadJSON() {
     try {
@@ -20,10 +40,11 @@ async function loadJSON() {
         streaming_events = await streamingEventsResponse.json();
         holidays = await holidaysResponse.json();
 
+        // テーマカラーを設定
+        setThemeColor();
+
         displayTodaysStreaming();
         displayTodaysEvents();
-
-        // JSONが読み込まれた後に誕生日を表示
         displayBirthdays();
 
     } catch (error) {

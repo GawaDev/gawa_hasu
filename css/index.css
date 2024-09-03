@@ -1,6 +1,10 @@
+:root {
+    --theme-color: #fb8a9b; /* デフォルトのテーマカラー */
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: #f0f0f0;
+    background-color: var(--theme-color);
     margin: 0;
     padding: 20px;
     color: #2b2b2b;
@@ -9,7 +13,7 @@ body {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #fb8a9b; /* 蓮ノ空の色 */
+    background-color: var(--theme-color);
     color: white;
 }
 
@@ -55,7 +59,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #fb8a9b;
+    background-color: var(--theme-color);
     color: white;
     margin-top: 40px;
 }
