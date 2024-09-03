@@ -107,9 +107,7 @@ body {
 
 /* 誕生日や記念日のスタイル */
 .birthday {
-    font-size: 0.8em; /* 祝日名と同じサイズに設定 */
-    color: inherit; /* 親要素の色を継承 */
-    margin-top: 2px; /* 日付と誕生日名の間にスペースを追加 */
+    font-size: 0.5em; /* 祝日名と同じサイズに設定 */
     display: inline-block; /* インラインブロックで表示 */
 }
 

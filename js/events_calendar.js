@@ -140,8 +140,10 @@ function createCalendar(year, month) {
             if (person.birth_month === month + 1 && person.birth_day === date) {
                 const birthdayDiv = document.createElement('div');
                 birthdayDiv.className = 'birthday';
-                birthdayDiv.style.color = person.color;
-                birthdayDiv.innerHTML = `● ${person.name}の誕生日`;
+                
+                // 「●」の部分だけに色を適用する
+                birthdayDiv.innerHTML = `<span class="birthday-dot" style="color: ${person.color};">●</span> ${person.name}の誕生日`;
+                
                 dayCell.appendChild(birthdayDiv);
             }
         });
