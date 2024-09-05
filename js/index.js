@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         eventList.innerHTML = ''; // 既存のリストをクリア
   
         // 今日のイベントをフィルタリング
-        const todaysStreamingEvents = streamingEvents.filter(event => new Date(event.date).toISOString().split('T')[0] === todayStr);
-        const todaysOnsiteEvents = onsiteEvents.filter(event => new Date(event.date).toISOString().split('T')[0] === todayStr);
+        const todaysStreamingEvents = streamingEvents.filter(event => event.date === todayStr.replace(/-/g, '/'));
+        const todaysOnsiteEvents = onsiteEvents.filter(event => event.date === todayStr.replace(/-/g, '/'));
         const birthdaysToday = persons.filter(person => person.birth_month === today.getMonth() + 1 && person.birth_day === today.getDate());
   
         // 誕生日を表示
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
   
     // テーマカラーの設定
-    function setThemeColor() {
+    function setThemeColor(persons) {
       const birthdaysToday = persons.filter(person => person.birth_month === today.getMonth() + 1 && person.birth_day === today.getDate());
       if (birthdaysToday.length > 0) {
         const randomPerson = birthdaysToday[Math.floor(Math.random() * birthdaysToday.length)];
@@ -74,7 +74,8 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     }
   
+    const persons = await loadJSON('json/persons.json');
     await displayTodaysEvents();
-    setThemeColor();
+    setThemeColor(persons);
   });
   
