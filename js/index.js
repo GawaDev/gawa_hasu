@@ -13,11 +13,29 @@ document.addEventListener('DOMContentLoaded', async function() {
                date.getDate() === today.getDate();
     }
 
-    // イベントを表示する関数
-    async function displayTodaysEventsAndStreaming() {
+    // 本日の誕生日、イベント、配信を表示する関数
+    async function displayTodaysSchedule() {
         const todaysList = document.getElementById('todays-events-list');
+        if (!todaysList) {
+            console.error('Error: Element with ID "todays-events-list" not found.');
+            return;
+        }
+
+        const persons = await loadJSON('json/persons.json');
         const streaming_events = await loadJSON('json/streaming_events.json');
         const onsite_events = await loadJSON('json/onsite_events.json');
+        const contents = await loadJSON('json/contents.json');
+
+        // 誕生日を表示
+        persons.forEach(person => {
+            const birthday = new Date(person.birth_year, person.birth_month - 1, person.birth_day);
+            if (isToday(birthday)) {
+                const birthdayItem = document.createElement('div');
+                birthdayItem.className = 'birthday-item';
+                birthdayItem.innerHTML = `<span class="dot" style="color: ${person.color}">●</span> ${person.name}の誕生日`;
+                todaysList.appendChild(birthdayItem);
+            }
+        });
 
         // イベントと配信を結合し、日付と時間でソート
         const allEvents = [...streaming_events, ...onsite_events];
@@ -39,8 +57,11 @@ document.addEventListener('DOMContentLoaded', async function() {
             const eventDate = new Date(event.date.replace(/-/g, '/'));
             if (isToday(eventDate)) {
                 const eventItem = document.createElement('div');
-                const eventTime = event.start_time && event.end_time ? ` (${event.start_time} - ${event.end_time})` : '';
-                eventItem.textContent = `${event.name}${eventTime}`;
+                eventItem.className = 'event-item';
+                const contentColor = contents[event.content_codes[0]].color || '#000';
+                const eventTime = event.start_time && event.end_time ? `${event.start_time} - ${event.end_time}` : '時間未定';
+                eventItem.innerHTML = `<div class="event-line" style="border-left: 4px solid ${contentColor};"></div>
+                                       <span class="event-time">${eventTime}</span> ${event.name}`;
                 todaysList.appendChild(eventItem);
             }
         });
@@ -48,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // 初期化関数
     async function init() {
-        await displayTodaysEventsAndStreaming();
+        await displayTodaysSchedule();
     }
 
     // ページが読み込まれたときに初期化関数を実行
