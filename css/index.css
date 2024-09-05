@@ -1,143 +1,124 @@
 body {
-    display: flex;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin: 0;
-    background-color: var(--background-color);
+  display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  background-color: var(--background-color);
 }
-  
+
 .sidebar {
-width: 25%;
-background-color: white;
-padding: 20px;
-border-right: 2px solid #ccc;
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+  border-right: 2px solid #ccc;
 }
 
 .sidebar h1 {
-font-size: 2em;
-margin: 0;
+  font-size: 2em;
+  margin: 0;
 }
 
 .subtext {
-font-size: 1em;
-color: #666;
+  font-size: 1em;
+  color: #666;
 }
 
 .sidebar p {
-margin-top: 10px;
-font-size: 1em;
-line-height: 1.5;
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 .sidebar hr {
-margin: 20px 0;
+  margin: 20px 0;
 }
 
 #todays-events h2 {
-font-size: 1.2em;
-margin-bottom: 10px;
-}
-
-.event-item {
-display: flex;
-align-items: center;
-margin-bottom: 10px;
-font-size: 0.9em; /* 誕生日やイベントのフォントサイズを小さく */
-}
-
-.event-icon {
-margin-right: 10px;
-}
-
-.event-time {
-margin-right: 10px;
-}
-
-.event-name {
-padding-left: 10px;
-}
-
-.main-content {
-width: 75%;
-padding: 20px;
-background-color: #e0f7fa;
-}
-
-.menu-button {
-display: flex;
-align-items: center;
-justify-content: flex-start;
-width: 100%;
-padding: 10px;
-margin: 10px 0;
-background-color: white;
-border: none;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-font-size: 1em;
-cursor: pointer;
-text-align: left;
-}
-
-.menu-button i.material-icons {
-margin-right: 10px;
-}
-
-.menu-button:hover {
-background-color: #f0f0f0;
-}
-
-footer {
-text-align: center;
-padding: 20px;
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.footer-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.footer-icon:hover {
-    background-color: #555;
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 #todays-events-list {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .birthday-item, .event-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 1em; /* テキストサイズの調整 */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .event-line {
-    width: 10px;
-    height: 100%;
-    margin-right: 10px;
+  width: 4px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .dot {
-    font-size: 1.5em; /* ドットのサイズを大きくする */
-    margin-right: 10px;
+  font-size: 1.5em;
+  margin-right: 10px;
 }
 
 .event-time {
-    font-weight: bold;
-    margin-right: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  cursor: pointer;
+  text-align: left;
+}
+
+.menu-button i.material-icons {
+  margin-right: 10px;
+}
+
+.menu-button:hover {
+  background-color: #f0f0f0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.footer-icon:hover {
+  background-color: #555;
 }

@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         // 誕生日を表示
         persons.forEach(person => {
-            const birthday = new Date(person.birth_year, person.birth_month - 1, person.birth_day);
+            const birthday = new Date(new Date().getFullYear(), person.birth_month - 1, person.birth_day);
             if (isToday(birthday)) {
                 const birthdayItem = document.createElement('div');
                 birthdayItem.className = 'birthday-item';
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 eventItem.className = 'event-item';
                 const contentColor = contents[event.content_codes[0]].color || '#000';
                 const eventTime = event.start_time && event.end_time ? `${event.start_time} - ${event.end_time}` : '時間未定';
-                eventItem.innerHTML = `<div class="event-line" style="border-left: 4px solid ${contentColor};"></div>
+                eventItem.innerHTML = `<div class="event-line" style="background-color: ${contentColor};"></div>
                                        <span class="event-time">${eventTime}</span> ${event.name}`;
                 todaysList.appendChild(eventItem);
             }
