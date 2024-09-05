@@ -1,82 +1,116 @@
-:root {
-    --theme-color: #fb8a9b; /* デフォルトのテーマカラー */
-}
-
 body {
+    display: flex;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: var(--theme-color);
     margin: 0;
+    background-color: var(--background-color);
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: white;
     padding: 20px;
-    color: #2b2b2b;
-}
-
-header {
-    text-align: center;
-    padding: 20px 0;
-    background-color: var(--theme-color);
-    color: white;
-}
-
-h1 {
-    font-size: 2.5em;
+    border-right: 2px solid #ccc;
+  }
+  
+  .sidebar h1 {
+    font-size: 2em;
     margin: 0;
-}
-
-h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-.business-card img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: var(--theme-color);
-    color: white;
-    margin-top: 40px;
-}
-
-#todays-streaming-list, #todays-events-list {
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
-}
-
-.birthday, .holiday {
-    font-size: 0.8em;
-    margin-top: 2px;
-}
-
-.birthday .birthday-dot {
+  }
+  
+  .subtext {
     font-size: 1em;
-}
+    color: #666;
+  }
+  
+  .sidebar p {
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .sidebar hr {
+    margin: 20px 0;
+  }
+  
+  #todays-events h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .event-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9em; /* 誕生日やイベントのフォントサイズを小さく */
+  }
+  
+  .event-icon {
+    margin-right: 10px;
+  }
+  
+  .event-time {
+    margin-right: 10px;
+  }
+  
+  .event-name {
+    padding-left: 10px;
+  }
+  
+  .main-content {
+    width: 75%;
+    padding: 20px;
+    background-color: #e0f7fa;
+  }
+  
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .menu-button i.material-icons {
+    margin-right: 10px;
+  }
+  
+  .menu-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .footer-icon:hover {
+    background-color: #555;
+  }
+  
