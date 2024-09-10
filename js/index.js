@@ -29,7 +29,7 @@ async function displayTodaysSchedule() {
     if (isToday(person.birth_month - 1, person.birth_day)) {
       const birthdayItem = document.createElement('div');
       birthdayItem.className = 'birthday-item';
-      birthdayItem.innerHTML = `<span class="birthday-dot" style="background-color: ${person.color}">●</span>
+      birthdayItem.innerHTML = `<span class="birthday-dot" style="background-color: ${person.color}"></span>
       <span class="birthday-name">${person.name}の誕生日</span>`;
       todaysList.appendChild(birthdayItem);
     }
