@@ -101,19 +101,17 @@ body {
 
 .birthday-name {
   grid-area: 1 / 2 / 3 / 3;
+  font-weight: bold;
 }
 
 .event-time {
   grid-area: 1 / 2 / 2 / 3;
+  font-size: .75em;
+  font-weight: bold;
 }
 
 .event-name {
   grid-area: 2 / 2 / 3 / 3;
-}
-
-.event-time {
-  font-weight: bold;
-  margin-right: 10px;
 }
 
 /* Footer Icons */
