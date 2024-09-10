@@ -38,7 +38,7 @@
         ],
         "hometown": "長野県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": null,
+        "birth_year": 2007,
         "birth_month": 5,
         "birth_day": 22,
         "color": "#ecb542",
@@ -53,7 +53,7 @@
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": null,
+        "birth_year": 2008,
         "birth_month": 1,
         "birth_day": 13,
         "color": "#639ad1",
@@ -64,11 +64,11 @@
         "name_reading": "おとむねこずえ",
         "name_en": "Otomune Kozue",
         "nicknames": [
-            "こずこず先輩"
+            ""
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
-        "birth_year": null,
+        "birth_year": 2006,
         "birth_month": 6,
         "birth_day": 15,
         "color": "#68be8d",
@@ -83,7 +83,7 @@
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
-        "birth_year": null,
+        "birth_year": 2006,
         "birth_month": 11,
         "birth_day": 17,
         "color": "#c8504d",
@@ -94,11 +94,11 @@
         "name_reading": "ふじしまめぐみ",
         "name_en": "Fujishima Megumi",
         "nicknames": [
-            "めぐちゃん"
+            ""
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
-        "birth_year": null,
+        "birth_year": 2006,
         "birth_month": 12,
         "birth_day": 20,
         "color": "#b8b6b9",
@@ -109,11 +109,11 @@
         "name_reading": "おおさわるりの",
         "name_en": "Osawa Rurino",
         "nicknames": [
-            "ルリちゃん"
+            ""
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": null,
+        "birth_year": 2007,
         "birth_month": 8,
         "birth_day": 31,
         "color": "#e78cb7",
@@ -128,7 +128,7 @@
         ],
         "hometown": "石川県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
-        "birth_year": null,
+        "birth_year": 2008,
         "birth_month": 10,
         "birth_day": 20,
         "color": "#99d2d0",
@@ -143,7 +143,7 @@
         ],
         "hometown": "福井県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
-        "birth_year": null,
+        "birth_year": 2009,
         "birth_month": 2,
         "birth_day": 28,
         "color": "#f5d968",
@@ -158,9 +158,9 @@
         ],
         "hometown": "福井県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
-        "birth_year": null,
-        "birth_month": 2,
-        "birth_day": 28,
+        "birth_year": 2008,
+        "birth_month": 9,
+        "birth_day": 24,
         "color": "#a38be7",
         "description": "蓮ノ空女学院の1年生。生粋のゲーマーであり、学生大会で優勝した経歴を持つ。「みらくらぱーく！」と出会い、自分の大好きな「ゲームを広めたい」という目標を見つけ、スクールアイドルクラブへ入部する。ゲーム配信のストリーマー「ツマヨウ寺」でもある。"
     }
