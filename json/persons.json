@@ -2,27 +2,136 @@
     {
         "name": "日野下花帆",
         "name_reading": "ひのしたかほ",
-        "name_en": "Kaho Hinoshita",
-        "nicknames": [""],
+        "name_en": "Hinoshita Kaho",
+        "nicknames": [
+            ""
+        ],
         "hometown": "長野県",
         "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": 1995,
-        "birth_month": 9,
-        "birth_day": 5,
-        "color": "#ffcc00",
-        "description": "山田太郎は蓮ノ空に所属するアイドルです。"
+        "birth_year": null,
+        "birth_month": 5,
+        "birth_day": 22,
+        "color": "#ecb542",
+        "description": "蓮ノ空女学院の2年生。笑顔がまぶしい明るい性格で、楽しそうなことにはいつも全力で一直線。スクールアイドルとして“花咲く”こと、そしていつか100万人とライブをすることを目標にしている。実家は長野で花卉農家を営み、小学生の双子の妹がいる。"
     },
     {
-        "name": "鈴木花子",
-        "name_reading": "すずきはなこ",
-        "name_en": "Hanako Suzuki",
-        "nicknames": ["はなちゃん", "すずちゃん"],
-        "hometown": "大阪府",
-        "affiliation": "スリーズブーケ",
-        "birth_year": 1997,
-        "birth_month": 9,
-        "birth_day": 5,
-        "color": "#ff6699",
-        "description": "鈴木花子はスリーズブーケに所属するアイドルです。"
+        "name": "村野さやか",
+        "name_reading": "むらのさやか",
+        "name_en": "Murano Sayaka",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": null,
+        "birth_month": 1,
+        "birth_day": 13,
+        "color": "#639ad1",
+        "description": "蓮ノ空女学院の2年生。幼い頃からフィギュアスケートをやっており、アスリートとしての一面も持つ。真面目な性格ゆえに他人を放っておけず、ついつい世話を焼いてしまうしっかり者だが、一転して天然なところも。料理が得意で、よく綴理のお世話をしている。"
+    },
+    {
+        "name": "乙宗梢",
+        "name_reading": "おとむねこずえ",
+        "name_en": "Otomune Kozue",
+        "nicknames": [
+            "こずこず先輩"
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": null,
+        "birth_month": 6,
+        "birth_day": 15,
+        "color": "#68be8d",
+        "description": "蓮ノ空女学院の3年生。文武両道、眉目秀麗。音楽一家に生まれ、小さいころから様々な習い事をしている才女。スクールアイドルクラブの部長として、みんなで「ラブライブ！」優勝することを目指している。機械が苦手だったが、最近は…？"
+    },
+    {
+        "name": "夕霧綴理",
+        "name_reading": "ゆうぎりつづり",
+        "name_en": "Yugiri Tsuzuri",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": null,
+        "birth_month": 11,
+        "birth_day": 17,
+        "color": "#c8504d",
+        "description": "蓮ノ空女学院の3年生。周囲からは天才と称されるほどのパフォーマーである一方、マイペースな性格で、独特なワードセンスを持ち、寂しがりやで人懐っこいところもある。言葉にするのは苦手だが、スクールアイドルに対する強い想いを持っている。"
+    },
+    {
+        "name": "藤島慈",
+        "name_reading": "ふじしまめぐみ",
+        "name_en": "Fujishima Megumi",
+        "nicknames": [
+            "めぐちゃん"
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": null,
+        "birth_month": 12,
+        "birth_day": 20,
+        "color": "#b8b6b9",
+        "description": "蓮ノ空女学院の3年生。小さい頃からタレント活動をしており、自分の可愛さを自覚している。「みらくらぱーく！」で世界中を夢中にさせるため、今日も可愛く見られるための努力を惜しまない。一方で興味のないことは一切やらないため、勉強は壊滅的。"
+    },
+    {
+        "name": "大沢瑠璃乃",
+        "name_reading": "おおさわるりの",
+        "name_en": "Osawa Rurino",
+        "nicknames": [
+            "ルリちゃん"
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": null,
+        "birth_month": 8,
+        "birth_day": 31,
+        "color": "#e78cb7",
+        "description": "蓮ノ空女学院の2年生。1年生の時に留学先のカリフォルニアから編入した帰国子女。周囲を明るくする元気な性格だが、気を遣いすぎるがゆえ、体力を使い切ると“充電切れ”の状態になってしまうことも。慈とは小学校の頃からの幼馴染であり、相棒。"
+    },
+    {
+        "name": "百生吟子",
+        "name_reading": "ももせぎんこ",
+        "name_en": "Momose Ginko",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
+        "birth_year": null,
+        "birth_month": 10,
+        "birth_day": 20,
+        "color": "#99d2d0",
+        "description": "蓮ノ空女学院の1年生。実家は加賀繍の工房を営んでおり、伝統を愛する女の子。祖母がクラブの前身である「芸楽部」に所属していたため、その伝統を受け継いだスクールアイドルになることを夢みている。花帆に対して、素直になれない一面も？"
+    },
+    {
+        "name": "徒町小鈴",
+        "name_reading": "かちまちこすず",
+        "name_en": "Kachimachi Kosuzu",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "福井県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
+        "birth_year": null,
+        "birth_month": 2,
+        "birth_day": 28,
+        "color": "#f5d968",
+        "description": "蓮ノ空女学院の1年生。敦賀の漁師家系の末っ子。「自分に誇れるなにか」を見つけるために、色々なことに挑戦しているチャレンジガール。失敗してもへこたれない頑張り屋さんだが、たまに自分を下に見る発言も。気合入れの合言葉は「ちぇすとー！」"
+    },
+    {
+        "name": "安養寺姫芽",
+        "name_reading": "あんようじひめ",
+        "name_en": "Anyoji Hime",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "福井県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
+        "birth_year": null,
+        "birth_month": 2,
+        "birth_day": 28,
+        "color": "#a38be7",
+        "description": "蓮ノ空女学院の1年生。生粋のゲーマーであり、学生大会で優勝した経歴を持つ。「みらくらぱーく！」と出会い、自分の大好きな「ゲームを広めたい」という目標を見つけ、スクールアイドルクラブへ入部する。ゲーム配信のストリーマー「ツマヨウ寺」でもある。"
     }
 ]

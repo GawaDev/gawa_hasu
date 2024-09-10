@@ -1,5 +1,19 @@
 [
     {
+        "date": "2024/09/10",
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "content_codes": [
+            "hasunosora",
+            "kan"
+        ],
+        "name": "サンプルイベント",
+        "location_code": "hulic_hall_tokyo",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
+        ]
+    },
+    {
         "date": "2024/08/23",
         "start_time": "19:00",
         "end_time": "20:30",
