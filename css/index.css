@@ -80,7 +80,6 @@ body {
 .event-item {
   display: grid;
   grid-template-columns: 1em 1fr;
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 1em;
   align-items: center;
 }
