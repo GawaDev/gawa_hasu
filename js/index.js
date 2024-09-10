@@ -29,7 +29,8 @@ async function displayTodaysSchedule() {
     if (isToday(person.birth_month - 1, person.birth_day)) {
       const birthdayItem = document.createElement('div');
       birthdayItem.className = 'birthday-item';
-      birthdayItem.innerHTML = `<span class="dot" style="color: ${person.color}">●</span> ${person.name}の誕生日`;
+      birthdayItem.innerHTML = `<span class="birthday-dot" style="background-color: ${person.color}">●</span>
+      <span class="birthday-name">${person.name}の誕生日</span>`;
       todaysList.appendChild(birthdayItem);
     }
   });
@@ -60,8 +61,9 @@ async function displayTodaysSchedule() {
       eventItem.className = 'event-item';
       const contentColor = contents[event.content_codes[0]].color || '#000';
       const eventTime = event.start_time && event.end_time ? `${event.start_time} - ${event.end_time}` : '時間未定';
-      eventItem.innerHTML = `<div class="event-line" style="border-left: 4px solid ${contentColor};"></div>
-                                 <span class="event-time">${eventTime}</span> ${event.name}`;
+      eventItem.innerHTML = `<div class="event-line" style="background-color: ${contentColor};"></div>
+      <span class="event-time">${eventTime}</span>
+      <span class="event-name">${event.name}</span>`;
       todaysList.appendChild(eventItem);
     }
   });

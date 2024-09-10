@@ -73,41 +73,44 @@ body {
 /* Event Grid Layout */
 #todays-events-list {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 10px;
 }
 
 .birthday-item,
 .event-item {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1em 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1em;
   align-items: center;
-  padding: 10px;
-  font-size: 0.9em;
-  /* Smaller font for birthdays and events */
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.birthday-item .dot,
-.event-item .event-line {
-  font-size: 1.5em;
-  /* Dot size */
-  margin-right: 10px;
-}
-
-.birthday-item .dot {
-  font-size: 1.2em;
+.birthday-dot {
+  grid-area: 1 / 1 / 3 / 2;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
 }
 
 .event-line {
-  width: 10px;
+  grid-area: 1 / 1 / 3 / 2;
+  border-radius: .5em;
+  width: 1em;
   height: 100%;
-  border-radius: 5px;
 }
 
-/* Event Time and Name Styling */
+.birthday-name {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+.event-time {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.event-name {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
 .event-time {
   font-weight: bold;
   margin-right: 10px;
