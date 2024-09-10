@@ -2,7 +2,26 @@
     "hasunosora": {
         "name": "蓮ノ空",
         "color": "#fb8a9b",
-        "persons": ["hinoshita", "murano", "otomune", "yugiri", "osawa", "fujishima", "momose", "kachimachi", "anyoji", "nirei", "nonaka", "hanamiya", "sasaki", "kan", "tsukine", "sakurai", "hayama", "kurusu"],
+        "persons": [
+            "hinoshita",
+            "murano",
+            "otomune",
+            "yugiri",
+            "osawa",
+            "fujishima",
+            "momose",
+            "kachimachi",
+            "anyoji",
+            "nirei",
+            "nonaka",
+            "hanamiya",
+            "sasaki",
+            "kan",
+            "tsukine",
+            "sakurai",
+            "hayama",
+            "kurusu"
+        ],
         "websites": [
             "https://www.lovelive-anime.jp/hasunosora/",
             "https://x.com/hasunosora_SIC"
@@ -20,7 +39,9 @@
     "hanamiya": {
         "name": "花宮初奈",
         "color": "#68be8d",
-        "persons": ["hanamiya"],
+        "persons": [
+            "hanamiya"
+        ],
         "websites": [
             "https://x.com/hanamiya_nina",
             "https://www.aoni.co.jp/search/hanamiya-niina.html"
@@ -29,7 +50,9 @@
     "sasaki": {
         "name": "佐々木琴子",
         "color": "#c8504b",
-        "persons": ["sasaki"],
+        "persons": [
+            "sasaki"
+        ],
         "websites": [
             "https://x.com/ssk_ktk828",
             "https://www.instagram.com/sasaki_kotoko828/",
@@ -40,7 +63,9 @@
     "tsukine": {
         "name": "月音こな",
         "color": "#b8b6b9",
-        "persons": ["tsukine"],
+        "persons": [
+            "tsukine"
+        ],
         "websites": [
             "https://x.com/KonaTsukine",
             "https://www.tiktok.com/@tuknekona",
@@ -51,7 +76,9 @@
     "nirei": {
         "name": "楡井希実",
         "color": "#ecb542",
-        "persons": ["nirei"],
+        "persons": [
+            "nirei"
+        ],
         "websites": [
             "https://x.com/NozomiNirei",
             "https://holypeak.com/talent/voice-actor-women/%E6%A5%A1%E4%BA%95-%E5%B8%8C%E5%AE%9F/"
@@ -60,7 +87,9 @@
     "nonaka": {
         "name": "野中ここな",
         "color": "#639ad1",
-        "persons": ["nonaka"],
+        "persons": [
+            "nonaka"
+        ],
         "websites": [
             "https://x.com/cocona_nonaka",
             "https://www.amuse.co.jp/artist/A8878/index.html",
@@ -70,7 +99,9 @@
     "kan": {
         "name": "菅叶和",
         "color": "#e78cb7",
-        "persons": ["kan"],
+        "persons": [
+            "kan"
+        ],
         "websites": [
             "https://x.com/kannkannna",
             "https://haikyo.co.jp/profile/profile.php?ActorID=13093"
@@ -79,7 +110,9 @@
     "sakurai": {
         "name": "櫻井陽菜",
         "color": "#99d2d0",
-        "persons": ["sakurai"],
+        "persons": [
+            "sakurai"
+        ],
         "websites": [
             "https://x.com/sakuraihi_na",
             "http://link-plan.net/talent_sakurai.html"
@@ -88,7 +121,9 @@
     "hayama": {
         "name": "葉山風花",
         "color": "#f5d968",
-        "persons": ["hayama"],
+        "persons": [
+            "hayama"
+        ],
         "websites": [
             "https://x.com/Hayama_Fuka",
             "https://holypeak.com/talent/voice-actor-women/%E8%91%89%E5%B1%B1-%E9%A2%A8%E8%8A%B1/"
@@ -97,7 +132,9 @@
     "kurusu": {
         "name": "来栖りん",
         "color": "#a38be7",
-        "persons": ["kurusu"],
+        "persons": [
+            "kurusu"
+        ],
         "websites": [
             "https://x.com/kurusurindesu",
             "https://www.instagram.com/ringring_rin/",

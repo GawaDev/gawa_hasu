@@ -1,3 +1,4 @@
+/* Sidebar and Main Layout */
 body {
   display: flex;
   font-family: 'Noto Sans JP', sans-serif;
@@ -32,39 +33,7 @@ body {
   margin: 20px 0;
 }
 
-#todays-events h2 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-
-#todays-events-list {
-  padding: 0;
-  margin: 0;
-}
-
-.birthday-item, .event-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: 1em;
-}
-
-.event-line {
-  width: 4px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.dot {
-  font-size: 1.5em;
-  margin-right: 10px;
-}
-
-.event-time {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
+/* Main Content Area */
 .main-content {
   width: 75%;
   padding: 20px;
@@ -95,6 +64,56 @@ body {
   background-color: #f0f0f0;
 }
 
+/* Today's Events Section */
+#todays-events h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Event Grid Layout */
+#todays-events-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.birthday-item,
+.event-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 10px;
+  font-size: 0.9em;
+  /* Smaller font for birthdays and events */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-item .dot,
+.event-item .event-line {
+  font-size: 1.5em;
+  /* Dot size */
+  margin-right: 10px;
+}
+
+.birthday-item .dot {
+  font-size: 1.2em;
+}
+
+.event-line {
+  width: 10px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* Event Time and Name Styling */
+.event-time {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Footer Icons */
 footer {
   text-align: center;
   padding: 20px;
