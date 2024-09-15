@@ -1,19 +1,5 @@
 [
     {
-        "date": "2024/09/10",
-        "start_time": "10:00",
-        "end_time": "",
-        "content_codes": [
-            "hanamiya",
-            "kan"
-        ],
-        "name": "サンプル配信",
-        "location_code": "audee",
-        "websites": [
-            "https://audee.jp/program/show/300007672"
-        ]
-    },
-    {
         "date": "2024/09/05",
         "start_time": "07:00",
         "end_time": "",

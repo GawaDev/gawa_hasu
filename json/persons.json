@@ -1,35 +1,5 @@
 [
     {
-        "name": "サンプル",
-        "name_reading": "さんぷる",
-        "name_en": "Sample",
-        "nicknames": [
-            ""
-        ],
-        "hometown": "長野県",
-        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": 2001,
-        "birth_month": 9,
-        "birth_day": 10,
-        "color": "#ecb542",
-        "description": "蓮ノ空女学院の2年生。笑顔がまぶしい明るい性格で、楽しそうなことにはいつも全力で一直線。スクールアイドルとして“花咲く”こと、そしていつか100万人とライブをすることを目標にしている。実家は長野で花卉農家を営み、小学生の双子の妹がいる。"
-    },
-    {
-        "name": "サンプル2",
-        "name_reading": "さんぷる2",
-        "name_en": "Sample2",
-        "nicknames": [
-            ""
-        ],
-        "hometown": "長野県",
-        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
-        "birth_year": 2001,
-        "birth_month": 9,
-        "birth_day": 10,
-        "color": "#639ad1",
-        "description": "蓮ノ空女学院の2年生。笑顔がまぶしい明るい性格で、楽しそうなことにはいつも全力で一直線。スクールアイドルとして“花咲く”こと、そしていつか100万人とライブをすることを目標にしている。実家は長野で花卉農家を営み、小学生の双子の妹がいる。"
-    },
-    {
         "name": "日野下花帆",
         "name_reading": "ひのしたかほ",
         "name_en": "Hinoshita Kaho",

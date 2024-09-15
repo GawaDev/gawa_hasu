@@ -21,6 +21,17 @@
             "https://www.saitama-arena.co.jp/arena/"
         ]
     },
+    "asaka_sta_east": {
+        "name": "朝霞駅東口",
+        "prefecture": "埼玉県",
+        "city": "朝霞市",
+        "nearest_station": "朝霞",
+        "capacity": "",
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
     "tokorozawa_sakura_town": {
         "name": "ところざわサクラタウン(ジャパンパビリオンホールA シーティング)",
         "prefecture": "埼玉県",
@@ -74,6 +85,17 @@
         "show_map": true,
         "websites": [
             "https://www.sumo.or.jp/Kokugikan/"
+        ]
+    },
+    "shinjyukumura_live": {
+        "name": "新宿村LIVE",
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "nearest_station": "西新宿",
+        "capacity": 228,
+        "show_map": true,
+        "websites": [
+            "https://www.shinjukumura-live.com/"
         ]
     },
     "seinenkan_hall": {

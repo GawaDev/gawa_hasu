@@ -1,19 +1,5 @@
 [
     {
-        "date": "2024/09/10",
-        "start_time": "19:00",
-        "end_time": "20:30",
-        "content_codes": [
-            "hasunosora",
-            "kan"
-        ],
-        "name": "サンプルイベント",
-        "location_code": "hulic_hall_tokyo",
-        "websites": [
-            "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR"
-        ]
-    },
-    {
         "date": "2024/08/23",
         "start_time": "19:00",
         "end_time": "20:30",
@@ -192,13 +178,39 @@
         ]
     },
     {
+        "date": "2024/10/13",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "content_codes": [
+            "kurusu"
+        ],
+        "name": "来栖りん オフィシャルファンクラブ「くるーず！」限定イベント 『くるーじんぐ！#3』＜1部＞",
+        "location_code": "shinjyukumura_live",
+        "websites": [
+            "https://kurusurin-fc.com/ticket/detail/GrWAA0JWGGV5Jv2EfBGw"
+        ]
+    },
+    {
+        "date": "2024/09/29",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "content_codes": [
+            "kurusu"
+        ],
+        "name": "来栖りん オフィシャルファンクラブ「くるーず！」限定イベント 『くるーじんぐ！#3』 ＜2部＞",
+        "location_code": "shinjyukumura_live",
+        "websites": [
+            "https://kurusurin-fc.com/ticket/detail/GrWAA0JWGGV5Jv2EfBGw"
+        ]
+    },
+    {
         "date": "2024/10/20",
         "start_time": "13:00",
         "end_time": "15:00",
         "content_codes": [
             "hasunosora"
         ],
-        "name": "ツエーゲン金沢 沼津戦（蓮ノ空・サンシャイン！コラボ）",
+        "name": "2024明治安田J3リーグ第33節 ツエーゲン金沢 vs アスルクラロ沼津『ラブライブ！ダービー2024』",
         "location_code": "kanazawa_stadium",
         "websites": [
             "https://www.zweigen-kanazawa.jp/news/?id=16978"
@@ -401,7 +413,7 @@
     {
         "date": "2025/01/31",
         "start_time": "20:00",
-        "end_time": "",
+        "end_time": "21:00",
         "content_codes": [
             "hasunosora"
         ],
@@ -413,8 +425,8 @@
     },
     {
         "date": "2025/02/01",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "17:00",
+        "end_time": "20:00",
         "content_codes": [
             "hasunosora"
         ],
@@ -426,8 +438,8 @@
     },
     {
         "date": "2025/02/02",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:30",
+        "end_time": "19:30",
         "content_codes": [
             "hasunosora"
         ],
