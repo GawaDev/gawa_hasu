@@ -133,5 +133,149 @@
         "birth_day": 24,
         "color": "#a38be7",
         "description": "蓮ノ空女学院の1年生。生粋のゲーマーであり、学生大会で優勝した経歴を持つ。「みらくらぱーく！」と出会い、自分の大好きな「ゲームを広めたい」という目標を見つけ、スクールアイドルクラブへ入部する。ゲーム配信のストリーマー「ツマヨウ寺」でもある。"
+    },
+    {
+        "name": "楡井希実",
+        "name_reading": "にれいのぞみ",
+        "name_en": "Nirei Nozomi",
+        "nicknames": [
+            "のんちゅけ",
+            "ちゅけ",
+            "のんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "ホーリーピーク",
+        "birth_year": 2001,
+        "birth_month": 5,
+        "birth_day": 21,
+        "color": "#ecb542",
+        "description": "日野下花帆役"
+    },
+    {
+        "name": "野中ここな",
+        "name_reading": "のなかここな",
+        "name_en": "Nonaka Kokona",
+        "nicknames": [
+            "なっす",
+            "なすちゃん",
+            "ここなっす"
+        ],
+        "hometown": "長崎県",
+        "affiliation": "アミューズ",
+        "birth_year": 2006,
+        "birth_month": 1,
+        "birth_day": 28,
+        "color": "#639ad1",
+        "description": "村野さやか役"
+    },
+    {
+        "name": "花宮初奈",
+        "name_reading": "はなみやにいな",
+        "name_en": "Hanamiya Niina",
+        "nicknames": [
+            "ういさま",
+            "ういちゃん",
+            "ういさん"
+        ],
+        "hometown": "大阪府",
+        "affiliation": "青二プロダクション",
+        "birth_year": 2000,
+        "birth_month": 10,
+        "birth_day": 24,
+        "color": "#68be8d",
+        "description": "乙宗梢役"
+    },
+    {
+        "name": "佐々木琴子",
+        "name_reading": "ささきことこ",
+        "name_en": "Sasaki Kotoko",
+        "nicknames": [
+            "こっちゃん"
+        ],
+        "hometown": "埼玉県",
+        "affiliation": "スタイルキューブ",
+        "birth_year": 1998,
+        "birth_month": 8,
+        "birth_day": 28,
+        "color": "#c8504d",
+        "description": "夕霧綴理役"
+    },
+    {
+        "name": "月音こな",
+        "name_reading": "つきねこな",
+        "name_en": "Tsukine Kona",
+        "nicknames": [
+            "こなち",
+            "こなこな"
+        ],
+        "hometown": "石川県",
+        "affiliation": "",
+        "birth_year": 2003,
+        "birth_month": 8,
+        "birth_day": 20,
+        "color": "#b8b6b9",
+        "description": "藤島慈役"
+    },
+    {
+        "name": "菅叶和",
+        "name_reading": "かんかんな",
+        "name_en": "Kan Kanna",
+        "nicknames": [
+            "かんかん",
+            "かんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "俳協",
+        "birth_year": 2001,
+        "birth_month": 11,
+        "birth_day": 19,
+        "color": "#e78cb7",
+        "description": "大沢瑠璃乃役"
+    },
+    {
+        "name": "櫻井陽菜",
+        "name_reading": "さくらいひな",
+        "name_en": "Sakurai Hina",
+        "nicknames": [
+            "ひーちゃん"
+        ],
+        "hometown": "石川県",
+        "affiliation": "リンク・プラン",
+        "birth_year": 2000,
+        "birth_month": 9,
+        "birth_day": 17,
+        "color": "#99d2d0",
+        "description": "百生吟子役"
+    },
+    {
+        "name": "葉山風花",
+        "name_reading": "はやまふうか",
+        "name_en": "Hayama Fuka",
+        "nicknames": [
+            "ふぅちゃん"
+        ],
+        "hometown": "大阪府",
+        "affiliation": "ホーリーピーク",
+        "birth_year": "",
+        "birth_month": 1,
+        "birth_day": 28,
+        "color": "#f5d968",
+        "description": "徒町小鈴役"
+    },
+    {
+        "name": "来栖りん",
+        "name_reading": "くるすりん",
+        "name_en": "Kurusu Rin",
+        "nicknames": [
+            "りんりん",
+            "りんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "バンダイナムコミュージックライブ（StarRise）",
+        "birth_year": 2000,
+        "birth_month": 11,
+        "birth_day": 8,
+        "color": "#a38be7",
+        "description": "安養寺姫芽役"
     }
 ]
