@@ -13,6 +13,20 @@
         ]
     },
     {
+        "date": "2024/09/06",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
         "date": "2024/09/13",
         "start_time": "07:00",
         "end_time": "",
@@ -23,6 +37,112 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/09/13",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/09/16",
+        "start_time": "21:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "With×MEETS",
+        "location_code": "link_like_lovelive",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/"
+        ]
+    },
+    {
+        "date": "2024/9/17",
+        "start_time": "18:30",
+        "end_time": "",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "アッシュくんの2歳のお誕生日をお祝いするよ",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/watch?v=r0DZBTeneq0"
+        ]
+    },
+    {
+        "date": "2024/09/17",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "声優 青山なぎさ･月音こなを救出せよ!ホテルからの脱出",
+        "location_code": "streaming_plus",
+        "websites": [
+            "https://eplus.jp/sf/detail/4166020002"
+        ]
+    },
+    {
+        "date": "2024/9/17",
+        "start_time": "20:00",
+        "end_time": "",
+        "content_codes": [
+            "nonaka"
+        ],
+        "name": "野中ここなのREC中！ #16",
+        "location_code": "niconico_ch_plus",
+        "websites": [
+            "https://nicochannel.jp/nonaka-cocona/",
+            "https://x.com/kokona_rec"
+        ]
+    },
+    {
+        "date": "2024/09/17",
+        "start_time": "21:00",
+        "end_time": "22:30",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "103期Fes×Rec:LIVE Day1 定点映像 公開",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/"
+        ]
+    },
+    {
+        "date": "2024/09/17",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/09/19",
+        "start_time": "20:30",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "With×MEETS",
+        "location_code": "link_like_lovelive",
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/"
         ]
     },
     {
@@ -39,6 +159,59 @@
         ]
     },
     {
+        "date": "2024/9/20",
+        "start_time": "21:30",
+        "end_time": "",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "せーので！はすのそら！104 #19",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/@lovelive_hasu/"
+        ]
+    },
+    {
+        "date": "2024/09/20",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/09/22",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "みらくら準備室ラジオ 第23回",
+        "location_code": "link_like_lovelive",
+        "websites": [
+            "https://www.youtube.com/@lovelive_hasu/"
+        ]
+    },
+    {
+        "date": "2024/09/24",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
         "date": "2024/09/27",
         "start_time": "07:00",
         "end_time": "",
@@ -49,6 +222,60 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/09/27",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/10/1",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/10/1",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "nonaka"
+        ],
+        "name": "野中ここなのぴこぴこ部屋ここなんです！",
+        "location_code": "openrec_tv",
+        "websites": [
+            "https://www.openrec.tv/user/nonakapikopiko",
+            "https://x.com/nonaka_pikopiko"
+        ]
+    },
+    {
+        "date": "2024/10/01",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
         ]
     },
     {
@@ -65,6 +292,62 @@
         ]
     },
     {
+        "date": "2024/10/04",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/10/8",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "kurusu"
+        ],
+        "name": "来栖りん 3rdシングル「わっちゅあね？」発売記念 インターネットサイン会",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UCQ7QGT_v6Si-2-i0f9mbMBQ",
+            "https://kurusurin.jp/live/",
+            "https://limista.jp/projects/5263"
+        ]
+    },
+    {
+        "date": "2024/10/8",
+        "start_time": "20:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "月音こなのまだ本気出してないだけだから！ #2",
+        "location_code": "niconico_ch_plus",
+        "websites": [
+            "https://nicochannel.jp/tsukine-kona/",
+            "https://x.com/kona_konyaito"
+        ]
+    },
+    {
+        "date": "2024/10/08",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
         "date": "2024/10/11",
         "start_time": "07:00",
         "end_time": "",
@@ -75,6 +358,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/10/11",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/10/15",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/10/15",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/10/16",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -91,6 +430,49 @@
         ]
     },
     {
+        "date": "2024/10/18",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/10/22",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/10/23",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2024/10/25",
         "start_time": "07:00",
         "end_time": "",
@@ -101,6 +483,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/10/25",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/10/29",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/10/29",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/10/30",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -117,6 +555,49 @@
         ]
     },
     {
+        "date": "2024/11/01",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/11/05",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/11/06",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2024/11/08",
         "start_time": "07:00",
         "end_time": "",
@@ -127,6 +608,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/11/08",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/11/12",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/11/12",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/11/13",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -143,6 +680,49 @@
         ]
     },
     {
+        "date": "2024/11/15",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/11/19",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/11/20",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2024/11/22",
         "start_time": "07:00",
         "end_time": "",
@@ -153,6 +733,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/11/22",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/11/26",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/11/26",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/11/27",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -169,6 +805,49 @@
         ]
     },
     {
+        "date": "2024/11/29",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/12/03",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/12/04",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2024/12/06",
         "start_time": "07:00",
         "end_time": "",
@@ -179,6 +858,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/12/06",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/12/10",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/12/10",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/12/11",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -195,6 +930,49 @@
         ]
     },
     {
+        "date": "2024/12/13",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/12/17",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/12/18",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2024/12/20",
         "start_time": "07:00",
         "end_time": "",
@@ -205,6 +983,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2024/12/20",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/12/24",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2024/12/24",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2024/12/25",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -221,6 +1055,49 @@
         ]
     },
     {
+        "date": "2024/12/27",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2024/12/31",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/01/01",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/01/03",
         "start_time": "07:00",
         "end_time": "",
@@ -231,6 +1108,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/01/03",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/01/07",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/01/07",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/01/08",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -247,6 +1180,49 @@
         ]
     },
     {
+        "date": "2025/01/10",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/01/14",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/01/15",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/01/17",
         "start_time": "07:00",
         "end_time": "",
@@ -257,6 +1233,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/01/17",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/01/21",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/01/21",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/01/22",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -273,6 +1305,49 @@
         ]
     },
     {
+        "date": "2025/01/24",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/01/28",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/01/29",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/01/31",
         "start_time": "07:00",
         "end_time": "",
@@ -283,6 +1358,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/01/31",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/02/04",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/02/04",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/02/05",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -299,6 +1430,49 @@
         ]
     },
     {
+        "date": "2025/02/07",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/02/11",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/02/12",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/02/14",
         "start_time": "07:00",
         "end_time": "",
@@ -309,6 +1483,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/02/14",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/02/18",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/02/18",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/02/19",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -325,6 +1555,49 @@
         ]
     },
     {
+        "date": "2025/02/21",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/02/25",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/02/26",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/02/28",
         "start_time": "07:00",
         "end_time": "",
@@ -335,6 +1608,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/02/28",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/03/04",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/03/04",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/03/05",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -351,6 +1680,49 @@
         ]
     },
     {
+        "date": "2025/03/07",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/03/11",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/03/12",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/03/14",
         "start_time": "07:00",
         "end_time": "",
@@ -361,6 +1733,62 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/03/14",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/03/18",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "sakurai"
+        ],
+        "name": "かのんとひなの成長日記",
+        "location_code": "hibiki_radio_station",
+        "websites": [
+            "https://hibiki-radio.jp/description/khsn/detail"
+        ]
+    },
+    {
+        "date": "2025/03/18",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/03/19",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
         ]
     },
     {
@@ -377,6 +1805,49 @@
         ]
     },
     {
+        "date": "2025/03/21",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025/03/25",
+        "start_time": "21:55",
+        "end_time": "22:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "セカンドショットインフォメーション",
+        "location_code": "youtube",
+        "websites": [
+            "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025/03/26",
+        "start_time": "25:00",
+        "end_time": "25:30",
+        "content_codes": [
+            "sasaki"
+        ],
+        "name": "佐々木琴子のささいなこと",
+        "location_code": "agqr",
+        "websites": [
+            "https://www.joqr.co.jp/ag/",
+            "https://x.com/sskt_agqr",
+            "https://qlover.jp/sskt",
+            "https://www.youtube.com/@agqr"
+        ]
+    },
+    {
         "date": "2025/03/28",
         "start_time": "07:00",
         "end_time": "",
@@ -387,6 +1858,20 @@
         "location_code": "audee",
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025/03/28",
+        "start_time": "23:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!",
+        "location_code": "niconico",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage",
+            "https://twitter.com/kanmegu_vg"
         ]
     }
 ]
