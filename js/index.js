@@ -60,7 +60,7 @@ async function displayTodaysSchedule() {
       const eventItem = document.createElement('div');
       eventItem.className = 'event-item';
       const contentColor = contents[event.content_codes[0]].color || '#000';
-      const eventTime = event.start_time && event.end_time ? `${event.start_time} - ${event.end_time}` : '時間未定';
+      const eventTime = `${event.start_time} - ${event.end_time}`;
       eventItem.innerHTML = `<div class="event-line" style="background-color: ${contentColor};"></div>
       <span class="event-time">${eventTime}</span>
       <span class="event-name">${event.name}</span>`;
