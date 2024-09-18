@@ -76,3 +76,8 @@ async function init() {
 
 // ページが読み込まれたときに初期化関数を実行
 document.addEventListener('DOMContentLoaded', init);
+
+// ページ遷移
+function navigateTo(url) {
+  location.href = url;
+}

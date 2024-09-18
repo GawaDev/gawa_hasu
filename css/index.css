@@ -7,6 +7,10 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* サイドバー */
 .sidebar {
   background-color: #fff;
@@ -59,6 +63,7 @@ body {
   font-size: 1em;
   cursor: pointer;
   text-align: left;
+  text-decoration: none;
 }
 
 .menu-button i.material-icons {
