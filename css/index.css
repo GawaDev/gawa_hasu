@@ -83,7 +83,6 @@ a {
 #todays-events-list {
   display: grid;
   gap: 10px;
-  overflow-y: scroll;
 }
 
 .birthday-item,
