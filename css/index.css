@@ -1,25 +1,23 @@
+html {
+  height: 100%;
+}
+
 body {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 1fr;
   font-family: 'Noto Sans JP', sans-serif;
   margin: 0;
-  height: 100vh;
-}
-
-a {
-  text-decoration: none;
+  height: 100%;
 }
 
 /* サイドバー */
 .sidebar {
   background-color: #fff;
-  padding: 20px;
-  overflow-y: hidden;
+  padding: 1rem;
 }
 
 .sidebar h1 {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -29,25 +27,25 @@ a {
 
 .sidebar p {
   margin-top: 10px;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .sidebar hr {
-  margin: 20px 0;
+  margin: 1rem 0;
 }
 
 /* メインコンテンツ */
 .main-content {
-  padding: 20px;
+  display: grid;
+  padding: 3rem;
   background-color: #e0f7fa;
-  padding: 3em 5em;
 }
 
 .menu-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: .5em;
+  gap: 1em;
 }
 
 .menu-button {
@@ -128,15 +126,15 @@ footer {
   padding: 20px;
 }
 
-.footer-icons {
+.icons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
 }
 
-.footer-icon {
-  width: 40px;
-  height: 40px;
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -144,9 +142,13 @@ footer {
   background-color: #333;
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 0.5rem;
 }
 
-.footer-icon:hover {
+.icon[data="x"] {
+  content: url()
+}
+
+.icon:hover {
   background-color: #555;
 }
