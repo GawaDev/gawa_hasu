@@ -145,7 +145,27 @@ footer {
   font-size: 0.5rem;
 }
 
-.icon[data="x"] {
+.icon[data-icon="x"]::backdrop {
+  content: url("assets/x.svg")
+}
+
+.icon[data-icon="instagram"] {
+  content: url("assets/instagram.svg")
+}
+
+.icon[data-icon="note"] {
+  content: url("")
+}
+
+.icon[data-icon="github"] {
+  content: url()
+}
+
+.icon[data-icon="eventernote"] {
+  content: url()
+}
+
+.icon[data-icon="twipla"] {
   content: url()
 }
 
