@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蓮ノ空総合マップ</title>
+    <link rel="stylesheet" href="css/map-view.css">
+    <!-- Add Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>蓮ノ空総合マップ</h2>
+            <p>蓮ノ空に関わりのある様々な情報をマッピングしています</p>
+            <div class="unvisited">
+                <span class="dot"></span> 未訪問地点
+                <input type="text" placeholder="">
+            </div>
+
+            <details>
+                <summary>イベントDB</summary>
+                <div class="db-content">
+                    未来・過去イベントでレイヤー分け
+                    <div class="button-row">
+                        <button class="select-all">全選択</button>
+                        <button class="deselect-all">全解除</button>
+                    </div>
+                </div>
+            </details>
+
+            <details open>
+                <summary>舞台・訪問地DB</summary>
+                <div class="button-row">
+                    <button class="select-all">全選択</button>
+                    <button class="deselect-all">全解除</button>
+                </div>
+
+                <!-- 金沢 (公式コンテンツ) -->
+                <div class="section">
+                    <div class="section-header">
+                        <span>金沢 (公式コンテンツ)</span>
+                        <div class="button-row">
+                            <button class="select-all">全選択</button>
+                            <button class="deselect-all">全解除</button>
+                        </div>
+                    </div>
+                    <ul class="locations">
+                        <li class="checked"><input type="checkbox" checked> 金沢駅 <span class="visited">●</span></li>
+                        <li class="checked"><input type="checkbox" checked> 鼈門</li>
+                        <li class="checked"><input type="checkbox" checked> 近江町市場 <span class="visited">●</span></li>
+                        <li><input type="checkbox"> ひがし茶屋街</li>
+                        <li class="checked"><input type="checkbox" checked> にし茶屋街</li>
+                    </ul>
+                </div>
+
+                <!-- その他地域 (公式コンテンツ) -->
+                <div class="section">
+                    <div class="section-header">
+                        <span>その他地域 (公式コンテンツ)</span>
+                        <div class="button-row">
+                            <button class="select-all">全選択</button>
+                            <button class="deselect-all">全解除</button>
+                        </div>
+                    </div>
+                    <ul class="locations">
+                        <li class="checked"><input type="checkbox" checked> Patia新御茶ノ水</li>
+                        <li class="checked"><input type="checkbox" checked> Patia神保町</li>
+                        <li><input type="checkbox"> 近江町市場</li>
+                        <li><input type="checkbox"> ひがし茶屋街</li>
+                        <li><input type="checkbox"> にし茶屋街</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+
+        <div id="map"></div>
+    </div>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/map-view.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 320px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar p {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .unvisited {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .unvisited .dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .unvisited input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 8px;
+    flex-grow: 1;
+  }
+  
+  details {
+    margin-top: 10px;
+  }
+  
+  details summary {
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .db-content, .section {
+    margin-bottom: 20px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #999;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  .section {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .locations {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .locations li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  
+  .locations li.checked {
+    background-color: #ffe0e0;
+  }
+  
+  .locations li input {
+    margin-right: 10px;
+  }
+  
+  .visited {
+    color: red;
+    margin-left: auto;
+  }
+  
+  #map {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
