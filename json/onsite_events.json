@@ -217,6 +217,19 @@
         ]
     },
     {
+        "date": "2024/10/30",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hanamiya"
+        ],
+        "name": "『本』と『声』2024 TOKYO BOOK NIGHT",
+        "location_code": "science_hall",
+        "websites": [
+            ""
+        ]
+    },
+    {
         "date": "2024/10/31",
         "start_time": "20:00",
         "end_time": "21:00",
@@ -309,14 +322,28 @@
     },
     {
         "date": "2024/11/30",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "13:30",
+        "end_time": "15:00",
         "content_codes": [
             "kan"
         ],
-        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス! 番組イベント",
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!〜1st Fight〜 昼の部",
+        "location_code": "seiryo_kaikan",
         "websites": [
-            ""
+            "https://ch.nicovideo.jp/voicegarage/blomaga/ar2203780"
+        ]
+    },
+    {
+        "date": "2024/11/30",
+        "start_time": "16:30",
+        "end_time": "18:00",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "菅叶和・梅澤めぐのカンバセーション・メロウ・グレイス!〜1st Fight〜 夜の部",
+        "location_code": "seiryo_kaikan",
+        "websites": [
+            "https://ch.nicovideo.jp/voicegarage/blomaga/ar2203780"
         ]
     },
     {

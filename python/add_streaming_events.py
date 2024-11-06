@@ -31,13 +31,13 @@ def add_streaming_events(new_event, repeat_until=None):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2024/9/20",
-        "start_time": "21:30",
+        "date": "2024/10/1",
+        "start_time": "21:00",
         "end_time": "",
-        "content_codes": ["sasaki"],
-        "name": "せーので！はすのそら！104 #19",
-        "location_code": "youtube",
-        "websites": ["https://www.youtube.com/@lovelive_hasu/"],
+        "content_codes": ["kan"],
+        "name": "叶和・梅澤めぐのカンバセーション・メロウ・グレイス!〜SPゲームパーティー〜",
+        "location_code": "niconico",
+        "websites": ["https://live.nicovideo.jp/watch/lv345847788"],
     }
     # イベントを追加（繰り返しイベントの場合はrepeat_untilを指定）
     add_streaming_events(new_event, repeat_until="")

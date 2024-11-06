@@ -31,13 +31,13 @@ def add_onsite_events(new_event, repeat_until=None):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2024/09/06",
-        "start_time": "18:00",
-        "end_time": "20:00",
-        "content_codes": ["example_content"],
-        "name": "Example Onsite Event",
-        "location_code": "example_location",
-        "websites": ["https://example.com"],
+        "date": "2024/10/30",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": ["hanamiya"],
+        "name": "『本』と『声』2024 TOKYO BOOK NIGHT",
+        "location_code": "science_hall",
+        "websites": [""],
     }
     # イベントを追加（繰り返しイベントの場合はrepeat_untilを指定）
-    add_onsite_events(new_event, repeat_until="2025/03/31")
+    add_onsite_events(new_event, repeat_until="")
